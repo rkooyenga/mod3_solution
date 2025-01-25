@@ -1,0 +1,129 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  font-family: "Noto Serif", Helvetica, serif;
+  font-size: 1.8rem;
+}
+a {
+  color: #aaaebc;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #fff;
+}
+h1 {
+  font-family: "Merriweather", Helvetica, serif;
+  weight: 900;
+  font-size: 2.6rem;
+}
+
+.navbar,
+.navbar-inverse {
+  font-family: "Merriweather", Helvetica, serif;
+  weight: 700;
+  font-size: 2.4em;
+  text-decoration: none;
+  width: 100vw;
+}
+
+a.navbar-brand {
+  color: #fff !important;
+  font-size: 2.4rem;
+}
+
+.row {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.item {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  position: relative;
+  padding-top: 30px;
+  min-height: 200px;
+  overflow: hidden;
+  transform: scale3d(0.99, 0.99, 0.98);
+  visibility: visible;
+}
+
+.item-title {
+  font-family: "Bricolage Grotesque", Helvetica, sans;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.25em;
+  padding: 5px 5px;
+  border: 1px solid #000;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+.item p {
+  margin: 0;
+  padding: 15px 10px;
+  line-height: 1.4;
+}
+
+.navbar-inverse .nav > li > a {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+.navbar-inverse .nav > li > a:hover,
+.navbar-inverse .nav > li > a:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+}
+.navbar-inverse .nav > li.active > a,
+.navbar-inverse .nav > li.active > a:hover,
+.navbar-inverse .nav > li.active > a:focus {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.item:nth-child(1) {
+  background-color: #ffc1e3;
+}
+.item:nth-child(2) {
+  background-color: #ff7f7f;
+}
+.item:nth-child(3) {
+  background-color: #fff59d;
+  transform: scale3d(1, 1, 1);
+}
+.item:nth-child(1) .item-title {
+  background-color: #d81b60;
+  color: white;
+}
+.item:nth-child(2) .item-title {
+  background-color: #b71c1c;
+  color: white;
+}
+.item:nth-child(3) .item-title {
+  background-color: #f9a825;
+  color: black;
+}
+
+.item:nth-child(even) {
+}
+
+.item,
+.item-title,
+* {
+  filter: grayscale(0.2);
+}
